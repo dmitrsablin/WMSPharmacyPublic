@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMSPharmacy", "WMSPharmacy\WMSPharmacy.csproj", "{28800962-65A7-4739-A95A-39EF880FB58E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28800962-65A7-4739-A95A-39EF880FB58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28800962-65A7-4739-A95A-39EF880FB58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28800962-65A7-4739-A95A-39EF880FB58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28800962-65A7-4739-A95A-39EF880FB58E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B250BF8-BF24-4C84-A90D-FE0EE448647D}
+	EndGlobalSection
+EndGlobal
