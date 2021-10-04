@@ -48,8 +48,7 @@ namespace WMSPharmacy.Forms
 
             NewPasswordTextBoxOnValueChanged(sender, e);
             ConfirmNewPasswordTextBoxOnValueChanged(sender, e);
-
-
+            
             #region Выравнивание элементов
 
             //Главная
@@ -324,7 +323,6 @@ namespace WMSPharmacy.Forms
             emailUserTextbox.Text = usersGridView.CurrentRow?.Cells[5].Value.ToString();
             passwordUserTextbox.Text = usersGridView.CurrentRow?.Cells[6].Value.ToString();
             confirmPasswordUserTextbox.Text = usersGridView.CurrentRow?.Cells[6].Value.ToString();
-
         }
 
         private void MedicinesTypeGridViewCellClick(object sender, DataGridViewCellEventArgs e)
@@ -484,8 +482,7 @@ namespace WMSPharmacy.Forms
                 {
                     MedicinesTypeName = medicinesTypeNameTextbox.Text
                 };
-
-
+                
                 if (medicinesTypeIdTextbox.Text == "")
                 {
                     Insert(medicineType);

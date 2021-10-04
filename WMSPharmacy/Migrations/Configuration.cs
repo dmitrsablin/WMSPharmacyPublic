@@ -3,8 +3,6 @@ using System.Data.Entity.Migrations;
 
 namespace WMSPharmacy.Migrations
 {
-    
-
     internal sealed class Configuration : DbMigrationsConfiguration<WmsPharmacyContext>
     {
         public Configuration()

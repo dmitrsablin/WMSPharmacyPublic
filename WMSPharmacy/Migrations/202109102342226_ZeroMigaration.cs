@@ -87,7 +87,6 @@
                         NameRole = c.String(nullable: false, maxLength: 255, unicode: false),
                     })
                 .PrimaryKey(t => t.Id);
-            
         }
         
         public override void Down()
