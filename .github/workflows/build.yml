@@ -2,40 +2,45 @@ name: "build"
 
 on:
   push:
-    tags:
-      - "v*"
+    branches: [ main ]
+    paths-ignore:
+    - 'README.md'
+  pull_request:
+    branches: [ main ]
+    paths-ignore:
+    - 'README.md'
 
   workflow_dispatch:
-  
+
 env:
   PROJECT_PATH: Installer\
-  
+
 jobs:
   deploy:
     runs-on: [windows-latest]
 
     steps:
       - uses: actions/checkout@v2
-        
+
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1.0.3
-        
+
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1.0.5
-        
+
       - name: Restore NuGet packages
         run: nuget restore WMSPharmacy.sln
-        
+
       - name: Build the solution
-        run: msbuild WMSPharmacy.sln /p:Configuration=Release /t:publish /p:PublishDir="${{env.PROJECT_PATH}}" 
-                 
+        run: msbuild WMSPharmacy.sln /p:Configuration=Release /t:publish /p:PublishDir="${{env.PROJECT_PATH}}"
+
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:
           type: 'zip'
           filename: 'WMSPharmacy.zip'
           path: "${{env.PROJECT_PATH}}"
-        
+
       - name: Release
         uses: marvinpinto/action-automatic-releases@latest
         with:
