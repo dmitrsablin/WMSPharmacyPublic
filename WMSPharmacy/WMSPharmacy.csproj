@@ -292,6 +292,7 @@
     <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\SeedData.cs" />
     <Compile Include="Migrations\202109102342226_ZeroMigaration.cs" />
     <Compile Include="Migrations\202109102342226_ZeroMigaration.designer.cs">
       <DependentUpon>202109102342226_ZeroMigaration.cs</DependentUpon>
