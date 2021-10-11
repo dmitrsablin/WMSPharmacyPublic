@@ -1,0 +1,27 @@
+name: "build"
+
+on:
+  pull_request:
+    branches: [ main ]
+
+env:
+  PROJECT_PATH: Installer\
+
+jobs:
+  build:
+    runs-on: [windows-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.0.3
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1.0.5
+
+      - name: Restore NuGet packages
+        run: nuget restore WMSPharmacy.sln
+
+      - name: Build the solution
+        run: msbuild WMSPharmacy.sln /p:Configuration=Release /t:publish /p:PublishDir="${{env.PROJECT_PATH}}"
