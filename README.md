@@ -11,6 +11,7 @@
 
 # Статус
 [![auto-release](https://github.com/dmitrsablin/WMSPharmacyPublic/actions/workflows/build.yml/badge.svg)](https://github.com/dmitrsablin/WMSPharmacyPublic/actions/workflows/build.yml)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdmitrsablin%2FWMSPharmacyPublic.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdmitrsablin%2FWMSPharmacyPublic?ref=badge_shield)
 
 # Замечания
 1. Для упрощения установки используется установщик `ClickOnce`. Подписи у приложения нет. Приложение можно удалить через панель управления Windows. 
@@ -45,3 +46,7 @@
 ![Отчет DOC](https://user-images.githubusercontent.com/37047275/133948455-e1f425ec-ccc0-4f90-9eaf-9af3e4f8b40a.PNG)
 ### Отчет в PDF
 ![Отчет PDF](https://user-images.githubusercontent.com/37047275/133948461-76a8f19f-de4b-4aff-b235-a43235a01ef3.PNG)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdmitrsablin%2FWMSPharmacyPublic.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdmitrsablin%2FWMSPharmacyPublic?ref=badge_large)
