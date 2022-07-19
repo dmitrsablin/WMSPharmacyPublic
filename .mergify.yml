@@ -1,9 +1,0 @@
-pull_request_rules:
-  - name: Automatic merge for dependabot
-    conditions:
-    - and:
-      - author=dependabot[bot]
-      - check-success=build
-    actions:
-      merge:
-        method: merge
