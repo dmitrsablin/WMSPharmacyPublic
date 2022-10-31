@@ -175,7 +175,7 @@
             this.authButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.authButton.Name = "authButton";
             this.authButton.Primary = false;
-            this.authButton.Size = new System.Drawing.Size(121, 36);
+            this.authButton.Size = new System.Drawing.Size(112, 36);
             this.authButton.TabIndex = 17;
             this.authButton.Text = "Авторизация";
             this.authButton.UseVisualStyleBackColor = false;
@@ -185,9 +185,9 @@
             // 
             this.authPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(121)))), ((int)(((byte)(255)))));
             this.authPanel.Controls.Add(this.authButton);
-            this.authPanel.Location = new System.Drawing.Point(472, 207);
+            this.authPanel.Location = new System.Drawing.Point(481, 207);
             this.authPanel.Name = "authPanel";
-            this.authPanel.Size = new System.Drawing.Size(121, 36);
+            this.authPanel.Size = new System.Drawing.Size(112, 36);
             this.authPanel.TabIndex = 18;
             // 
             // showSettingsButton
@@ -200,13 +200,13 @@
             this.showSettingsButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.showSettingsButton.Name = "showSettingsButton";
             this.showSettingsButton.Primary = false;
-            this.showSettingsButton.Size = new System.Drawing.Size(104, 36);
+            this.showSettingsButton.Size = new System.Drawing.Size(95, 36);
             this.showSettingsButton.TabIndex = 19;
             this.showSettingsButton.Text = "Настройки";
             this.showSettingsButton.UseVisualStyleBackColor = true;
             this.showSettingsButton.Click += new System.EventHandler(this.SettingsButtonClick);
             // 
-            // adminPassTextbox
+            // adminPasswordTextbox
             // 
             this.adminPasswordTextbox.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
             this.adminPasswordTextbox.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
@@ -224,7 +224,7 @@
             this.adminPasswordTextbox.Location = new System.Drawing.Point(131, 399);
             this.adminPasswordTextbox.Margin = new System.Windows.Forms.Padding(4);
             this.adminPasswordTextbox.MaxLength = 32767;
-            this.adminPasswordTextbox.Name = "adminPassTextbox";
+            this.adminPasswordTextbox.Name = "adminPasswordTextbox";
             this.adminPasswordTextbox.Size = new System.Drawing.Size(120, 33);
             this.adminPasswordTextbox.TabIndex = 21;
             this.adminPasswordTextbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -240,7 +240,7 @@
             this.toSettingsButton.MouseState = MaterialSkin.MouseState.HOVER;
             this.toSettingsButton.Name = "toSettingsButton";
             this.toSettingsButton.Primary = false;
-            this.toSettingsButton.Size = new System.Drawing.Size(58, 36);
+            this.toSettingsButton.Size = new System.Drawing.Size(49, 36);
             this.toSettingsButton.TabIndex = 22;
             this.toSettingsButton.Text = "Вход";
             this.toSettingsButton.UseVisualStyleBackColor = true;
