@@ -17,6 +17,7 @@ namespace WMSPharmacy.Helpers
                 //Setting column names as Property names
                 dataTable.Columns.Add(prop.Name);
             }
+
             foreach (T item in items)
             {
                 var values = new object[props.Length];
@@ -27,7 +28,6 @@ namespace WMSPharmacy.Helpers
                 }
                 dataTable.Rows.Add(values);
             }
-            //put a breakpoint here and check datatable
             return dataTable;
         }
     }

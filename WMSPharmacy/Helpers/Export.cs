@@ -117,18 +117,11 @@ namespace WMSPharmacy.Helpers
                     case TypeOfDocument.SendOnPrinter:
                     {
                         //Сделал такой кринж потому, что spire "нормально" воспринимает datatable
-                        //Функция печати стоит 800 долларов
+                        //Но функция печати стоит 800 долларов
                         //Aspose не принимает datatable, но печать бесплатная
                         var file = $@"{filePath}\{nameTable} {DateTime.Now:dd-MM-yyyy HH-mm-ss}.doc";
-                        using (var rtfExport = new RTFExport())
-                        {
-                            rtfExport.DataSource = ExportSource.DataTable;
-                            rtfExport.DataTable = table;
-                            rtfExport.RTFOptions.PageOrientation = PageOrientation.Landscape;
-                            rtfExport.FileName = file;
 
-                            rtfExport.SaveToFile();
-                        }
+                        ExportInDocument(table, file, TypeOfDocument.Word, filePath);
 
                         //Aspose по умолчанию не ассинхронный, 
                         //Ждать пока он отработает сомнительно, поэтому сделал task

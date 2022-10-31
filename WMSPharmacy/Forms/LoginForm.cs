@@ -221,14 +221,7 @@ namespace WMSPharmacy.Forms
             }
             else
             {
-                if (passwordTextbox.Text.Length == 0)
-                {
-                    passwordTextbox.isPassword = false;
-                }
-                else
-                {
-                    passwordTextbox.isPassword = !_viewPasswordSemaphore;
-                }
+                passwordTextbox.isPassword = !_viewPasswordSemaphore;
             }
         }
 

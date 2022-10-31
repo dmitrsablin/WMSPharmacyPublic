@@ -157,14 +157,7 @@ namespace WMSPharmacy.Forms
             }
             else
             {
-                if (newUserPasswordTextbox.Text.Length == 0)
-                {
-                    newUserPasswordTextbox.isPassword = false;
-                }
-                else
-                {
-                    newUserPasswordTextbox.isPassword = !_viewPasswordSemaphore;
-                }
+                newUserPasswordTextbox.isPassword = !_viewPasswordSemaphore;
             }
         }
 
@@ -192,14 +185,7 @@ namespace WMSPharmacy.Forms
             }
             else
             {
-                if (confirmNewUserPasswordTextbox.Text.Length == 0)
-                {
-                    confirmNewUserPasswordTextbox.isPassword = false;
-                }
-                else
-                {
-                    confirmNewUserPasswordTextbox.isPassword = !_viewPasswordSemaphore2;
-                }
+                confirmNewUserPasswordTextbox.isPassword = !_viewPasswordSemaphore2;
             }
         }
 
@@ -470,8 +456,8 @@ namespace WMSPharmacy.Forms
         }
 
         //Код создания объекта везде примерно одинаковый
-        //Если Id нет значит добавляем,
-        //Если есть значит изменяем
+        //Если Id нет значит создаем новую запись,
+        //Если Id есть значит изменяем существующую
         //Далее везде аналогично
 
         private void SaveMedicinesTypeButtonClick(object sender, EventArgs e)
