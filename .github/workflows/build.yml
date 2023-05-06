@@ -31,7 +31,7 @@ jobs:
         run: msbuild WMSPharmacy.sln /p:Configuration=Release /t:publish /p:PublishDir="${{env.PROJECT_PATH}}"
 
       - name: Archive Release
-        uses: thedoctor0/zip-release@master
+        uses: thedoctor0/zip-release@e1b2518b11867a1ce3334b5b42c781f468981032
         with:
           type: 'zip'
           filename: 'WMSPharmacy.zip'
