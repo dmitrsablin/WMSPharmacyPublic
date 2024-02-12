@@ -68,12 +68,12 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words, Version=24.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
-      <HintPath>..\packages/Aspose.Words.24.1.0/lib/net461/Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words, Version=24.2.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
+      <HintPath>..\packages/Aspose.Words.24.2.0/lib/net461/Aspose.Words.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Aspose.Words.Pdf2Word, Version=24.1.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
-      <HintPath>..\packages/Aspose.Words.24.1.0/lib/net461/Aspose.Words.Pdf2Word.dll</HintPath>
+    <Reference Include="Aspose.Words.Pdf2Word, Version=24.2.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
+      <HintPath>..\packages/Aspose.Words.24.2.0/lib/net461/Aspose.Words.Pdf2Word.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="BCrypt.Net-Next, Version=4.0.2.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
