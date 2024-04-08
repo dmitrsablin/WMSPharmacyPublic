@@ -68,12 +68,12 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words, Version=24.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
-      <HintPath>..\packages/Aspose.Words.24.3.0/lib/net461/Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words, Version=24.4.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
+      <HintPath>..\packages/Aspose.Words.24.4.0/lib/net462/Aspose.Words.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Aspose.Words.Pdf2Word, Version=24.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
-      <HintPath>..\packages/Aspose.Words.24.3.0/lib/net461/Aspose.Words.Pdf2Word.dll</HintPath>
+    <Reference Include="Aspose.Words.Pdf2Word, Version=24.4.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
+      <HintPath>..\packages/Aspose.Words.24.4.0/lib/net462/Aspose.Words.Pdf2Word.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="BCrypt.Net-Next, Version=4.0.2.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
@@ -213,6 +213,10 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="SkiaSharp, Version=2.88.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+      <HintPath>..\packages/SkiaSharp.2.88.7/lib/net462/SkiaSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Spire.DataExport, Version=3.5.10.2040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
       <HintPath>..\packages\Spire.DataExport.3.5.10\lib\net40\Spire.DataExport.dll</HintPath>
     </Reference>
@@ -431,6 +435,10 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages/SkiaSharp.NativeAssets.macOS.2.88.7/build/net462/SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages/SkiaSharp.NativeAssets.macOS.2.88.7/build/net462/SkiaSharp.NativeAssets.macOS.targets'))" />
+    <Error Condition="!Exists('..\packages/SkiaSharp.NativeAssets.Win32.2.88.7/build/net462/SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages/SkiaSharp.NativeAssets.Win32.2.88.7/build/net462/SkiaSharp.NativeAssets.Win32.targets'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages/SkiaSharp.NativeAssets.macOS.2.88.7/build/net462/SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages/SkiaSharp.NativeAssets.macOS.2.88.7/build/net462/SkiaSharp.NativeAssets.macOS.targets')" />
+  <Import Project="..\packages/SkiaSharp.NativeAssets.Win32.2.88.7/build/net462/SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages/SkiaSharp.NativeAssets.Win32.2.88.7/build/net462/SkiaSharp.NativeAssets.Win32.targets')" />
 </Project>
