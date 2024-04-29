@@ -230,8 +230,8 @@
     <Reference Include="Spire.License, Version=1.4.0.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
       <HintPath>..\packages\Spire.PDF.7.9.6\lib\net40\Spire.License.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.Pdf, Version=10.4.2.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
-      <HintPath>..\packages/Spire.PDF.10.4.2/lib/net40/Spire.Pdf.dll</HintPath>
+    <Reference Include="Spire.Pdf, Version=10.4.7.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
+      <HintPath>..\packages/Spire.PDF.10.4.7/lib/net40/Spire.Pdf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
