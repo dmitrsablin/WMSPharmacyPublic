@@ -242,8 +242,8 @@
       <HintPath>..\packages/Microsoft.Extensions.Primitives.8.0.0/lib/net462/Microsoft.Extensions.Primitives.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-      <HintPath>..\packages/Microsoft.IO.RecyclableMemoryStream.3.0.0/lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages/Microsoft.IO.RecyclableMemoryStream.3.0.1/lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
