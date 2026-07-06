@@ -282,7 +282,7 @@
       <HintPath>..\packages\Spire.PDF.7.9.6\lib\net40\Spire.License.dll</HintPath>
     </Reference>
     <Reference Include="Spire.Pdf, Version=12.6.9.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
-      <HintPath>..\packages\Spire.PDF.12.6.9\lib\net40\Spire.Pdf.dll</HintPath>
+      <HintPath>..\packages\Spire.PDF.12.6.10\lib\net40\Spire.Pdf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
