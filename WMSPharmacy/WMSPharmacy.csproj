@@ -563,8 +563,8 @@
     <Error Condition="!Exists('..\packages\EntityFramework.6.5.2\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.2\build\EntityFramework.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.5.2\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.2\build\EntityFramework.targets'))" />
     <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
-    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.148.0\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Win32.4.148.0\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
     <Error Condition="!Exists('..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.150.0\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Win32.4.150.0\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.2.88.7\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.2.88.7\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
@@ -574,6 +574,6 @@
   <Import Project="..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
   <Import Project="..\packages\EntityFramework.6.5.2\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.2\build\EntityFramework.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
-  <Import Project="..\packages\SkiaSharp.NativeAssets.Win32.4.148.0\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.148.0\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
   <Import Project="..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets" Condition="Exists('..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets')" />
+  <Import Project="..\packages\SkiaSharp.NativeAssets.Win32.4.150.0\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.150.0\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
 </Project>
