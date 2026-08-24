@@ -194,8 +194,8 @@
       <HintPath>..\packages\EntityFramework.6.5.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="EPPlus, Version=8.6.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1">
-      <HintPath>..\packages\EPPlus.8.6.3\lib\net462\EPPlus.dll</HintPath>
+    <Reference Include="EPPlus, Version=8.7.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1">
+      <HintPath>..\packages\EPPlus.8.7.0\lib\net462\EPPlus.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPPlus.Interfaces, Version=8.6.2.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61">
@@ -259,7 +259,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c">
-      <HintPath>..\packages\NLog.6.1.4\lib\net46\NLog.dll</HintPath>
+      <HintPath>..\packages\NLog.6.2.0\lib\net46\NLog.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PresentationCore" />
@@ -281,8 +281,8 @@
     <Reference Include="Spire.License, Version=1.4.0.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
       <HintPath>..\packages\Spire.PDF.7.9.6\lib\net40\Spire.License.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.Pdf, Version=12.8.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
-      <HintPath>..\packages\Spire.PDF.12.8.0\lib\net40\Spire.Pdf.dll</HintPath>
+    <Reference Include="Spire.Pdf, Version=12.8.3.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
+      <HintPath>..\packages\Spire.PDF.12.8.3\lib\net40\Spire.Pdf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -563,9 +563,9 @@
     <Error Condition="!Exists('..\packages\EntityFramework.6.5.2\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.2\build\EntityFramework.props'))" />
     <Error Condition="!Exists('..\packages\EntityFramework.6.5.2\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.5.2\build\EntityFramework.targets'))" />
     <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
-    <Error Condition="!Exists('..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets'))" />
     <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
     <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.151.1\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Win32.4.151.1\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
+    <Error Condition="!Exists('..\packages\NLog.Schema.6.2.0\build\NLog.Schema.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NLog.Schema.6.2.0\build\NLog.Schema.targets'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.2.88.7\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.2.88.7\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
@@ -575,7 +575,7 @@
   <Import Project="..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('..\packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
   <Import Project="..\packages\EntityFramework.6.5.2\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.5.2\build\EntityFramework.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.148.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
-  <Import Project="..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets" Condition="Exists('..\packages\NLog.Schema.6.1.4\build\NLog.Schema.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.Win32.4.151.1\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.151.1\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
+  <Import Project="..\packages\NLog.Schema.6.2.0\build\NLog.Schema.targets" Condition="Exists('..\packages\NLog.Schema.6.2.0\build\NLog.Schema.targets')" />
 </Project>
