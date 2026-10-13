@@ -71,8 +71,8 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Words, Version=26.9.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
-      <HintPath>..\packages\Aspose.Words.26.9.0\lib\net462\Aspose.Words.dll</HintPath>
+    <Reference Include="Aspose.Words, Version=26.10.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56">
+      <HintPath>..\packages\Aspose.Words.26.10.0\lib\net462\Aspose.Words.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="BCrypt-Net-Next, Version=4.2.0.0, Culture=neutral, PublicKeyToken=1e11be04b6288443">
@@ -281,8 +281,8 @@
     <Reference Include="Spire.License, Version=1.4.0.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
       <HintPath>..\packages\Spire.PDF.7.9.6\lib\net40\Spire.License.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.Pdf, Version=12.9.18.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
-      <HintPath>..\packages\Spire.PDF.12.9.18\lib\net40\Spire.Pdf.dll</HintPath>
+    <Reference Include="Spire.Pdf, Version=12.10.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
+      <HintPath>..\packages\Spire.PDF.12.10.0\lib\net40\Spire.Pdf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
