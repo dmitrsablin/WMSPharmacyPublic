@@ -194,8 +194,8 @@
       <HintPath>..\packages\EntityFramework.6.5.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="EPPlus, Version=8.7.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1">
-      <HintPath>..\packages\EPPlus.8.7.1\lib\net462\EPPlus.dll</HintPath>
+    <Reference Include="EPPlus, Version=8.7.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1">
+      <HintPath>..\packages\EPPlus.8.7.2\lib\net462\EPPlus.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EPPlus.Interfaces, Version=8.6.2.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61">
@@ -209,8 +209,8 @@
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.12, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.10.0.12\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.13, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.10.0.13\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Bcl.Cryptography, Version=10.0.0.13, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
