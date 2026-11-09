@@ -83,8 +83,8 @@
       <HintPath>..\packages\Bunifu.Licensing.6.3.0\lib\net472\Bunifu.Licensing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Bunifu.UI.WinForms.9.1.0\lib\net472\Bunifu.UI.WinForms.dll</HintPath>
+    <Reference Include="Bunifu.UI.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Bunifu.UI.WinForms.10.0.2\lib\net472\Bunifu.UI.WinForms.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
@@ -264,8 +264,8 @@
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="SkiaSharp, Version=4.154.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
-      <HintPath>..\packages\SkiaSharp.4.154.0\lib\net462\SkiaSharp.dll</HintPath>
+    <Reference Include="SkiaSharp, Version=4.155.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756">
+      <HintPath>..\packages\SkiaSharp.4.155.0\lib\net462\SkiaSharp.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Spire.DataExport, Version=3.5.10.2040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
@@ -274,15 +274,15 @@
     <Reference Include="Spire.DataExport.ResourceMgr, Version=1.6.62.4040, Culture=neutral, PublicKeyToken=4bc1500157862925, processorArchitecture=MSIL">
       <HintPath>..\packages\Spire.DataExport.3.5.10\lib\net40\Spire.DataExport.ResourceMgr.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.Doc, Version=14.9.11.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
-      <HintPath>..\packages\Spire.Doc.14.9.11\lib\net40\Spire.Doc.dll</HintPath>
+    <Reference Include="Spire.Doc, Version=14.10.9.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
+      <HintPath>..\packages\Spire.Doc.14.10.9\lib\net40\Spire.Doc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Spire.License, Version=1.4.0.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
       <HintPath>..\packages\Spire.PDF.7.9.6\lib\net40\Spire.License.dll</HintPath>
     </Reference>
-    <Reference Include="Spire.Pdf, Version=12.10.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
-      <HintPath>..\packages\Spire.PDF.12.10.0\lib\net40\Spire.Pdf.dll</HintPath>
+    <Reference Include="Spire.Pdf, Version=12.11.0.0, Culture=neutral, PublicKeyToken=663f351905198cb3">
+      <HintPath>..\packages\Spire.PDF.12.11.0\lib\net40\Spire.Pdf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -291,8 +291,8 @@
       <HintPath>..\packages\System.Buffers.4.6.1\lib\net462\System.Buffers.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.CodeDom, Version=10.0.0.12, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-      <HintPath>..\packages\System.CodeDom.10.0.12\lib\net462\System.CodeDom.dll</HintPath>
+    <Reference Include="System.CodeDom, Version=10.0.0.14, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.CodeDom.10.0.14\lib\net462\System.CodeDom.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -350,8 +350,8 @@
       <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Security.Cryptography.Pkcs, Version=10.0.0.13, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <HintPath>..\packages\System.Security.Cryptography.Pkcs.10.0.13\lib\net462\System.Security.Cryptography.Pkcs.dll</HintPath>
+    <Reference Include="System.Security.Cryptography.Pkcs, Version=10.0.0.14, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\System.Security.Cryptography.Pkcs.10.0.14\lib\net462\System.Security.Cryptography.Pkcs.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -362,8 +362,8 @@
       <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Security.Cryptography.Xml, Version=10.0.0.13, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-      <HintPath>..\packages\System.Security.Cryptography.Xml.10.0.13\lib\net462\System.Security.Cryptography.Xml.dll</HintPath>
+    <Reference Include="System.Security.Cryptography.Xml, Version=10.0.0.14, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.10.0.14\lib\net462\System.Security.Cryptography.Xml.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ServiceModel" />
@@ -566,7 +566,8 @@
     <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
     <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.153.1\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Win32.4.153.1\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
     <Error Condition="!Exists('..\packages\NLog.Schema.6.2.2\build\NLog.Schema.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NLog.Schema.6.2.2\build\NLog.Schema.targets'))" />
-    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.154.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.4.154.0\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.155.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.macOS.4.155.0\build\net462\SkiaSharp.NativeAssets.macOS.targets'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.155.0\build\net462\SkiaSharp.NativeAssets.Win32.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.NativeAssets.Win32.4.155.0\build\net462\SkiaSharp.NativeAssets.Win32.targets'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.2.88.7\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.2.88.7\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
@@ -579,5 +580,6 @@
   <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.151.1\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
   <Import Project="..\packages\SkiaSharp.NativeAssets.Win32.4.153.1\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.153.1\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
   <Import Project="..\packages\NLog.Schema.6.2.2\build\NLog.Schema.targets" Condition="Exists('..\packages\NLog.Schema.6.2.2\build\NLog.Schema.targets')" />
-  <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.4.154.0\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.154.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
+  <Import Project="..\packages\SkiaSharp.NativeAssets.macOS.4.155.0\build\net462\SkiaSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.macOS.4.155.0\build\net462\SkiaSharp.NativeAssets.macOS.targets')" />
+  <Import Project="..\packages\SkiaSharp.NativeAssets.Win32.4.155.0\build\net462\SkiaSharp.NativeAssets.Win32.targets" Condition="Exists('..\packages\SkiaSharp.NativeAssets.Win32.4.155.0\build\net462\SkiaSharp.NativeAssets.Win32.targets')" />
 </Project>
